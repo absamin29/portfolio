@@ -1,0 +1,65 @@
+.pa-hide {
+    position: absolute;
+    text-indent: -9999px
+}
+
+.rcorners1 {
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
+.demo {
+    color: white;
+    text-shadow: 2px 2px 4px #000
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+html,
+body,
+header,
+.intro-2 {
+    height: 100%
+}
+
+@media (max-width:740px) {
+    html,
+    body,
+    header,
+    .intro-2 {
+        height: 900px
+    }
+}
+
+@media (min-width:800px) and (max-width:850px) {
+    html,
+    body,
+    header,
+    .intro-2 {
+        height: 900px
+    }
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
